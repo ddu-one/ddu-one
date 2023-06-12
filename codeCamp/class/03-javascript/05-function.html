@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>function Quiz</title>
+  <script>
+    function sendNum(){
+      let sendNumber = Math.floor(Math.random() * 1000000)
+      return document.getElementById('number').innerText = sendNumber
+    }
+  </script>
+</head>
+<body>
+  <span id="number">000000</span>
+  <button onclick="sendNum()">인증번호 전송</button>
+</body>
+</html>
